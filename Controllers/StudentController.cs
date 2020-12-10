@@ -6,6 +6,8 @@ namespace FirstWebApi.Controllers
     [Route("[controller]")]
     public class StudentController :ControllerBase
     {
+
+        
         private readonly int a;
 
         public StudentController()
